@@ -70,7 +70,7 @@ Run the program:
 MovieTicketBooking.exe
 ```
 
-### Linux / macOS
+# Linux / macOS
 
 ```bash
 ./MovieTicketBooking
@@ -78,9 +78,9 @@ MovieTicketBooking.exe
 
 # Project Status
 
- **Currently in development**
+**Completed**
 
-The project is being developed incrementally, with different classes responsible for movies, bookings, payments, seats, shows, tickets, and other cinema-related operations.
+The Movie Ticket Booking System is a completed C++ project implementing the core functionalities of movie browsing, show management, seat selection, booking, payment, and ticket generation.
 
 # Author
 
