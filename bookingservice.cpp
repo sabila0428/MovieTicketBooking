@@ -2,7 +2,7 @@
 #include<string>
 #include<vector>
 
-#include"booking.cpp"
+// #include"booking.cpp"
 using namespace std;
 
 class BookingService{
@@ -97,45 +97,45 @@ class BookingService{
 };
 
 
-int main()
-{
-    BookingService service;
+// int main()
+// {
+//     BookingService service;
 
-    Booking b1 = service.createBooking(
-        "Sabila",
-        "Avengers",
-        "Screen 2",
-        "6:30 PM",
-        800
-    );
+//     Booking b1 = service.createBooking(
+//         "Sabila",
+//         "Avengers",
+//         "Screen 2",
+//         "6:30 PM",
+//         800
+//     );
 
-    service.addSeatToBooking(b1.getBookingId(), "A1");
-    service.addSeatToBooking(b1.getBookingId(), "A2");
-    service.addSeatToBooking(b1.getBookingId(), "B3");
+//     service.addSeatToBooking(b1.getBookingId(), "A1");
+//     service.addSeatToBooking(b1.getBookingId(), "A2");
+//     service.addSeatToBooking(b1.getBookingId(), "B3");
 
-    cout << "Booking created successfully!" << endl;
+//     cout << "Booking created successfully!" << endl;
 
-    cout << endl;
+//     cout << endl;
 
-    service.displayBooking(b1.getBookingId());
+//     service.displayBooking(b1.getBookingId());
 
-    cout << endl;
+//     cout << endl;
 
-    service.confirmBooking(b1.getBookingId());
+//     service.confirmBooking(b1.getBookingId());
 
-    cout << "After confirmation:" << endl;
+//     cout << "After confirmation:" << endl;
 
-    service.displayBooking(b1.getBookingId());
+//     service.displayBooking(b1.getBookingId());
 
-    cout << endl;
+//     cout << endl;
 
-    service.cancelBooking(b1.getBookingId());
+//     service.cancelBooking(b1.getBookingId());
 
-    cout << endl;
+//     cout << endl;
 
-    cout << "After cancellation:" << endl;
+//     cout << "After cancellation:" << endl;
 
-    service.displayBooking(b1.getBookingId());
+//     service.displayBooking(b1.getBookingId());
 
-    return 0;
-}
+//     return 0;
+// }

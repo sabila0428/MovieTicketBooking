@@ -67,7 +67,7 @@ class Seat
 
         string getStatusName(){
             if(status == available)  return "available";
-            else "booked";
+            else return "booked";
         }
 
         void displaySeats(){

@@ -49,24 +49,24 @@ class Show{
 };
 
 
-int main() {
+// int main() {
 
-    Show s1(101, "Avengers", "Screen 1", "3:00 PM");
-    Show s2(102, "Avengers", "Screen 2", "6:30 PM");
-    Show s3(103, "Avengers", "Screen 3", "9:30 PM");
+//     Show s1(101, "Avengers", "Screen 1", "3:00 PM");
+//     Show s2(102, "Avengers", "Screen 2", "6:30 PM");
+//     Show s3(103, "Avengers", "Screen 3", "9:30 PM");
 
-    cout << "SHOW DETAILS" << endl;
-    cout << "============" << endl;
+//     cout << "SHOW DETAILS" << endl;
+//     cout << "============" << endl;
 
-    s1.displayShow();
+//     s1.displayShow();
 
-    cout << endl;
+//     cout << endl;
 
-    s2.displayShow();
+//     s2.displayShow();
 
-    cout << endl;
+//     cout << endl;
 
-    s3.displayShow();
+//     s3.displayShow();
 
-    return 0;
-}
+//     return 0;
+// }
